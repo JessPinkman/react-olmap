@@ -1,0 +1,27 @@
+{
+  "name": "@jesspinkman/react-olmap",
+  "version": "1.0.0",
+  "description": "react compoonent to display an open layer map",
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "types": "lib",
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "author": "serge goncalves",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-loader": "^9.2.2",
+    "typescript": "^4.3.2",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0"
+  },
+  "dependencies": {
+    "@types/react": "^17.0.9",
+    "@types/react-dom": "^17.0.6",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
